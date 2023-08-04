@@ -1,0 +1,27 @@
+/* For all devices */
+html {
+    font-size: 16px;
+  }
+  
+  /* For mobile phones */
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  
+  /* For tablets and desktops */
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 3em;
+    }
+  
+    p {
+      font-size: 1.5em;
+    }
+  }
+  
